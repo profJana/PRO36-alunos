@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: vollkorn;
+  src: url(./assets/Vollkorn-Bold.ttf);
+}
+
+canvas {
+  display: block;
+}
+
+.gameTitle{
+  width: 85%;
+  height: 160px;
+}
+
+.greeting{
+  font-size: 40px;
+  color: white;
+  font-family: vollkorn;
+  text-align: center;
+}
+
+.customInput {
+ 
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+
+.customButton {
+  
+  
+}
